@@ -1,0 +1,16 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+    <head>
+        <title>HTML5 Video Fall Back Layout</title>
+    </head>
+    <body>
+        <!--width Required--><!--height Required--><!--swfsrc Required-->
+        <video id="VideoID" width="1160" height="564" swfsrc="/Content/swf/swfvideosrc.swf">
+           <source src="/Content/video/videosrc.webm" type="video/webm"/>
+           <source src="/Content/video/videosrc.mp4" type="video/mp4"/>
+           <source src="/Content/video/videosrc.ogv" type="video/ogv"/>
+            <input type="hidden" name="params" value="wmode:transparent,scale:noscale" /> <!--params Optional-->
+            <input type="hidden" name="flashvars" value="foo:bar,boo:true" /> <!--flashvars Optional-->
+        </video>
+    </body>
+</html>
